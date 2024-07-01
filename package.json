@@ -1,0 +1,30 @@
+{
+  "name": "vf-ts-tree-shake-poc",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueform/vueform": "^1.9.13",
+    "autosize": "^6.0.1",
+    "flatpickr": "^4.6.13",
+    "locutus": "^2.0.32",
+    "lodash": "^4.17.21",
+    "sortablejs": "^1.15.2",
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.39",
+    "tailwindcss": "^3.4.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.3.1",
+    "vite-bundle-analyzer": "^0.10.3",
+    "vue-tsc": "^2.0.21"
+  }
+}
